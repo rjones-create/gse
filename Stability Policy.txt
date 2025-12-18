@@ -1,0 +1,7 @@
+Stability Policy
+
+This project optimizes for longevity, not velocity.
+
+If GSE ever needs frequent releases, it has failed its purpose.
+
+⸻
