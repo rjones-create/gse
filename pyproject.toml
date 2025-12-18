@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.21.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gse"
+version = "0.1.0"
+description = "A minimal JSON Schema validator CLI for governance-style JSON specifications."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "MirrorFrame contributors" }
+]
+dependencies = [
+  "jsonschema>=4.21.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/rjones-create/gse"
+
+[project.scripts]
+gse = "gse.cli:main"
